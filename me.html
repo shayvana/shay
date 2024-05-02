@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shayna Provine</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white p-12">
+    <div id="app"></div>
+    <div class="flowers">
+        <pre>
+                      _(_)_                          wWWWw   _
+            @@@@       (_)@(_)   vVVVv     _     @@@@  (___) _(_)_
+           @@()@@ wWWWw  (_)\    (___)   _(_)_  @@()@@   Y  (_)@(_)
+            @@@@  (___)     `|/    Y    (_)@(_)  @@@@   \|/   (_)\
+             /      Y       \|    \|/    /(_)    \|      |/      |
+          \ |     \ |/       | / \ | /  \|/       |/    \|      \|/
+          \\|//   \\|///  \\\|//\\\|/// \|///  \\\|//  \\|//  \\\|// 
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        </pre>
+    </div>
+
+    <script type="text/babel">
+        function App() {
+            return (
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-3 gap-4">
+                        <div className="col-span-1">
+                            <h1 className="text-4xl font-bold mb-6"><a href="index.html">shayna provine</a></h1>
+                            <nav className="text-sm space-y-2">
+                                <div><a href="me.html" className="hover:text-white">me</a></div>
+                                <div><a href="cs.html" className="hover:text-white">cs</a></div>
+                                <div><a href="chess.html" className="hover:text-white">fun</a></div>
+                            </nav>
+                        </div>
+
+                        <div className="col-span-2">
+                            <div className="mb-6">
+                                <h2 className="text-xl font-bold mb-2">me</h2>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>in progress:</span><br />
+                                    stream chess weekly<br />
+                                    take the lsat<br />
+                                    write for chess.com blog monthly<br />
+                                    learn the caro-kann<br />
+                                    do leetcode daily<br />
+                                    contribute to lila<br />
+                                    create more with photoshop<br />
+                                    go through 98-228 interactive fiction<br />
+                                    study chess daily<br />
+                                    edit twitch stream vod for youtube<br />
+                                    start chess twitter<br />
+                                    setup medium blog/substack
+                                </p>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>blog ideas:</span><br />
+                                    chess in media (anime)<br />
+                                    2021 wrapped<br />
+                                    letters to friends<br />
+                                    the art of losing (north american open recap)<br />
+                                    a letter to japanese breakfast<br />
+                                    on second-hand consumption<br />
+                                    on creating content that's already been made
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+</body>
+</html>

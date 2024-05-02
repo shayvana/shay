@@ -91,3 +91,8 @@ h1.text-4xl {
     margin-bottom: 20px;
 }
 
+.link {
+    color: #dbe2d2; 
+    font-weight: bold
+}
+

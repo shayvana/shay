@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shayna Provine</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white p-12">
+    <div id="app"></div>
+    <div class="flowers">
+        <pre>
+                      _(_)_                          wWWWw   _
+            @@@@       (_)@(_)   vVVVv     _     @@@@  (___) _(_)_
+           @@()@@ wWWWw  (_)\    (___)   _(_)_  @@()@@   Y  (_)@(_)
+            @@@@  (___)     `|/    Y    (_)@(_)  @@@@   \|/   (_)\
+             /      Y       \|    \|/    /(_)    \|      |/      |
+          \ |     \ |/       | / \ | /  \|/       |/    \|      \|/
+          \\|//   \\|///  \\\|//\\\|/// \|///  \\\|//  \\|//  \\\|// 
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        </pre>
+    </div>
+
+    <script type="text/babel">
+        function App() {
+            return (
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-3 gap-4">
+                        <div className="col-span-1">
+                            <h1 className="text-4xl font-bold mb-6"><a href="index.html">shayna provine</a></h1>
+                            <nav className="text-sm space-y-2">
+                                <div><a href="me.html" className="hover:text-white">me</a></div>
+                                <div><a href="cs.html" className="hover:text-white">cs</a></div>
+                                <div><a href="chess.html" className="hover:text-white">fun</a></div>
+                            </nav>
+                        </div>
+
+                        <div className="col-span-2">
+                            <div className="mb-6">
+                                <h2 className="text-xl font-bold mb-2">chess</h2>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    shayna is currently focused on content creation for the game that has been such a big part of her life. specifically, 
+                                    she is looking to explore the squishy side of chess, the parts that can't be analyzed by a computer. she likes to consider 
+                                    the aspects that make it a soft science, its culture and history, and what it means for humans to still be playing this silly 
+                                    little game.
+                                </p>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>articles:</span><br />
+                                    <a href="https://www.chess.com/blog/shizaya/psychology-in-the-2021-world-chess-championship" class="link">psychology in the 2021 world chess championship</a><br />
+                                    <a href="https://www.chess.com/blog/shizaya/2021-us-national-collegiate-womens-team-cup-recap" class="link">2021 us national collegiate womens team cup recap</a><br />
+                                    <a href="https://www.chess.com/blog/shizaya/women-in-chess-momentsofgenius" class="link">women in chess #momentsofgenius</a><br />
+                                    <a href="https://thequeensgambitblo.wixsite.com/home/post/mychessqg-shayna-provine" class="link">#mychessqg shayna provine</a><br />
+                                    <a href="https://www.are.na/shayna-begonia/chess-graphics" class="link">chess graphics</a>
+                                </p>
+                                <h2 className="text-xl font-bold mb-2">content</h2>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    shayna is a firm believer that any time spent working on the things that we love is time well spent. as a result, she would like 
+                                    to share the projects that are important to her, but don't necessarily fit into the previous categories. 
+                                </p>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>genshin impact:</span><br />
+                                    <a href="https://www.notion.so/khaenriah/Khaenri-ah-Lore-Project-9a0ad5df027f40ebb272eadf572d2e8d" class="link">khaenriah.com</a><br />
+                                    <a href="https://twitter.com/khaenriahcom" class="link">khaenri'ah twitter</a><br />
+                                    <a href="https://discord.com/invite/lore" class="link">khaenri'ah discord</a><br />
+                                    <a href="https://www.notion.so/khaenriah/Khaenri-ah-Lore-Library-Database-697c4fd64c8f4141a3b4b56e8e6ba716" class="link">lore library and database</a><br />
+                                    <a href="https://www.reddit.com/r/Ganyu/" class="link">r/ganyu</a><br />
+                                    <a href="https://www.reddit.com/r/Ganyu/comments/mjriob/lore_behind_ganyus_constellations_2_and_4/" class="link">lore behind ganyu's constellations 2 and 4</a>
+                                </p>
+                                <p className=" text-sm" class="paragraph-spacing">
+                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>all writing:</span><br />
+                                    <a href="https://drive.google.com/file/d/1yWDxky_rbNj1ggrswZekl1PGK67vTMvi/view" class="link">explanatory writing portfolio</a><br />
+                                    <a href="https://docs.google.com/document/d/1qCAT7IfFfHGddq72ydOnxZDEKRIT4IX9/edit" class="link">job application portfolio</a><br />
+                                    <a href="https://docs.google.com/document/d/19QBamZR0X1pjfg0yCFY5IbXZjHNiBJ2kiZzpGlBppgE/edit" class="link">the lily is a symbol of rebirth</a><br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+</body>
+</html>
