@@ -87,4 +87,7 @@ h1.text-4xl {
     font-size: 12px;
 }
 
+.paragraph-spacing {
+    margin-bottom: 20px;
+}
 
