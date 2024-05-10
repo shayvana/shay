@@ -24,6 +24,21 @@
 
     <script type="text/babel">
         function App() {
+            const inProgressItems = [
+                "stream chess weekly",
+                "take the lsat",
+                "write for chess.com blog monthly",
+                "learn the caro-kann",
+                "do leetcode daily",
+                "contribute to lila",
+                "create more with photoshop",
+                "go through 98-228 interactive fiction",
+                "study chess daily",
+                "edit twitch stream vod for youtube",
+                "start chess twitter",
+                "setup medium blog/substack"
+            ];
+
             return (
                 <div className="container mx-auto">
                     <div className="grid grid-cols-3 gap-4">
@@ -38,31 +53,11 @@
 
                         <div className="col-span-2">
                             <div className="mb-6">
-                                <h2 className="text-xl font-bold mb-2">me</h2>
-                                <p className=" text-sm" class="paragraph-spacing">
-                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>in progress:</span><br />
-                                    ▪ stream chess weekly<br />
-                                    ▪ take the lsat<br />
-                                    ▪ write for chess.com blog monthly<br />
-                                    ▪ learn the caro-kann<br />
-                                    ▪ do leetcode daily<br />
-                                    ▪ contribute to lila<br />
-                                    ▪ create more with photoshop<br />
-                                    ▪ go through 98-228 interactive fiction<br />
-                                    ▪ study chess daily<br />
-                                    ▪ edit twitch stream vod for youtube<br />
-                                    ▪ start chess twitter<br />
-                                    ▪ setup medium blog/substack
-                                </p>
-                                <p className=" text-sm" class="paragraph-spacing">
-                                    <span style={{ fontWeight: 'bold', color: '#6f554a' }}>blog ideas:</span><br />
-                                    ▪ chess in media (anime)<br />
-                                    ▪ 2021 wrapped<br />
-                                    ▪ letters to friends<br />
-                                    ▪ the art of losing (north american open recap)<br />
-                                    ▪ a letter to japanese breakfast<br />
-                                    ▪ on second-hand consumption<br />
-                                    ▪ on creating content that's already been made
+                                <h2 className="text-xl font-bold mb-2">dailies</h2>
+                                <p className="text-sm paragraph-spacing">
+                                    {inProgressItems.map(item => (
+                                        <span key={item} className="text-lg">▪ {item}<br /></span>
+                                    ))}
                                 </p>
                             </div>
                         </div>
