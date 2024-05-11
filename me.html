@@ -50,8 +50,8 @@
                         <div className="col-span-2">
                             <div className="mb-6">
                                 <h2 className="text-xl font-bold mb-2">dailies</h2>
+                                <p>Last updated: 2024-05-11</p>
                                 <p className="text-sm paragraph-spacing">
-                                    <span className="text-lg">Last updated: {current_date}</span><br />
                                     {inProgressItems.map(item => (
                                         <span key={item} className="text-lg">▪ {item}<br /></span>
                                     ))}
@@ -65,6 +65,6 @@
 
         ReactDOM.render(<App />, document.getElementById('app'));
     </script>
-<p>Last updated: 2024-05-11</p>
+
 </body>
 </html>
