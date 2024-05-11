@@ -15,3 +15,15 @@ code; ramble bot setup
 write; surf and turf outline
 write; hail claudia
 journal; im getting my masters >_< if you asked me even two months ago if id ever think about pursuing higher education, it wouldve been the easiest no of my life, but working and spending most of my day applying knowledge that ive already obtained has made me realize that im still interested in learning new things. i think its quite perfect actually, making things for five star and being useful while also getting better part-time.  i talked w my dad a bit about the whole thing, the whole thing being how i like my work and what i want to do in the future and what im capable of doing in the future and what the future might look like wo him in it. i sobbed uncontrollably for an hour over the realization of just how much he loves. i am so grateful that i can see that now. unconditional love really is the strongest thing in the world and i would say thats another huge reason for why ive decided to go back to school. we're all doing our best. on the topic of the are.na submission ive decided to do it on fb posts by my friend who is still christian. each persons relationship w religion is so interesting and id like to explore that through documents of journeys to and away (and even back) to god.
+
+2024-05-11
+sent out weekly update to stakeholders
+finished data analytics page frontend
+continued warehouse page frontend
+began data retrieval with extensiv api
+watched dp week 1 lectures and started problem set 1
+submitted arena pitch
+will watch linear programming and advanced data structures lectures
+will write surf and turf outline
+will design lost ark tribute ui
+will quit lost ark
