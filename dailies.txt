@@ -27,3 +27,8 @@ will watch linear programming and advanced data structures lectures
 will write surf and turf outline
 will design lost ark tribute ui
 will quit lost ark
+
+2024-05-13
+dp problem set
+configure warehouse layout
+i feel p tired today. maybe bc its monday.
