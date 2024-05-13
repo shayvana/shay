@@ -19,7 +19,7 @@ def update_html_list(html_file, new_list):
 
         # Add current date to the HTML content
         current_date = datetime.now().strftime("%Y-%m-%d")
-        new_html_content = new_html_content.replace('</body>', f'<p>Last updated: {current_date}</p>\n</body>')
+        new_html_content = re.sub(r'<p>Last updated: \d{4}-\d{2}-\d{2}</p>', f'<p>Last updated: {current_date}</p>', new_html_content)
 
         # Write the updated HTML to a file
         with open(html_file, 'w') as f:
